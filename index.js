@@ -11,6 +11,8 @@ function welcomeMessage(){
         text = name;
     }
 
+    text = text.toUpperCase();
+
     var textNode = document.createTextNode(text);
     h1.appendChild(textNode);
     document.body.appendChild(h1);
